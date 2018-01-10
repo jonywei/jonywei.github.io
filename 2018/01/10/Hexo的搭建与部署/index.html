@@ -54,7 +54,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="blog,duckweed,Jonywei">
-    <meta name="keywords" content="jonywei,blog,duckweed,">
+    <meta name="keywords" content="jonywei,blog,duckweed,,learning">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -214,11 +214,11 @@
     <meta property="og:title" content="Hexo的搭建与部署 | Duckweed">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="blog,duckweed,Jonywei">
-    
+    <meta property="og:article:tag" content="learning"> 
 
     
         <meta property="article:published_time" content="Wed Jan 10 2018 16:21:21 GMT+0800">
-        <meta property="article:modified_time" content="Wed Jan 10 2018 16:21:21 GMT+0800">
+        <meta property="article:modified_time" content="Wed Jan 10 2018 18:00:37 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -241,7 +241,7 @@
     "mainEntityOfPage": "https://jonywei.github.io/2018/01/10/Hexo的搭建与部署/index.html",
     "headline": "Hexo的搭建与部署",
     "datePublished": "Wed Jan 10 2018 16:21:21 GMT+0800",
-    "dateModified": "Wed Jan 10 2018 16:21:21 GMT+0800",
+    "dateModified": "Wed Jan 10 2018 18:00:37 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Jony Wei",
@@ -259,7 +259,7 @@
             "url": "/img/favicon.png"
         }
     },
-    "keywords": "jonywei,blog,duckweed,",
+    "keywords": ",learningjonywei,blog,duckweed,",
     "description": "blog,duckweed,Jonywei",
 }
 </script>
@@ -322,6 +322,15 @@
 
     <!-- Left aligned menu below button -->
     
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">1.</span> <span class="post-toc-text">本篇所包含的内容如下：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">2.</span> <span class="post-toc-text">Start</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">1. 安装Git Bash</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">2.安装NodeJs</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">3. 安装hexo</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">4. 搭桥到github</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">2.5.</span> <span class="post-toc-text">5. 一步之遥</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">2.6.</span> <span class="post-toc-text">6. 上传到github</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">2.7.</span> <span class="post-toc-text">7. 绑定个人域名</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#undefined"><span class="post-toc-number">3.</span> <span class="post-toc-text">至此你已完成了一个hexo博客的搭建与部署。至于主题以及文章的发布，后面会讲到。</span></a></li></ol>
+    </ul>
     
 
 
@@ -386,8 +395,29 @@
 
     <!-- Qrcode -->
     
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAAAAADAeSUUAAAC0klEQVR42u3aS27DMAwFQN//0u22QBD3kXQQWxqvisZVONqw/Bw/Wz4HNjY2NjY2NjY29i3ZR/z8ff/1hPMz331aCPolhjxmbGxs7B3Y1a9MQslPSK71/J3zmLGxsbH3YSdJ692nSWI7v4LqReQxY2NjY2OfAyZv5sVPNXFiY2NjY8/Lj/MiIfmrPAViY2NjY1cbNJNiIy8wqvF8sJeGjY2NfXt2b9D73Z+/Nt/GxsbGvhm79yTlRDWsSXkTxYyNjY29KDtZnZynt7yAqRYhhbUhbGxs7EXZ320VJSubV6U9bGxs7LXZ1aWZ6vA1Pz+5ggQcJTBsbGzsJdiThZtzcP6byXflJQ02Njb2quweplpITIqc/OJGeRsbGxt7aXZScuSX1Ss/JkMFbGxs7H3YSYs/TyG9y+01s0bjAWxsbOyHsydNn2qDPh8J95pNo/EANjY29kLsqwa3ecFQLW/yYTM2Njb2buyrxrFJupo3qsopExsbG3sDdi9d9U5LGkOT9tOoAsPGxsZ+FHt00GDtsje4rcaDjY2NvQ97Hm51EJucX02r/0SCjY2NvSh70pqfN4Oq+DylRRUYNjY29kLsatKqFirV9JbHkA+DsbGxsVdlJ1eQLPf0yokEMEmK2NjY2LuxkzJj3tbPB8DV5aFmAsPGxsZ+ODv/d//apZyrLjq/GmxsbOwd2PPRb7XF3yt7epeFjY2NvTa7l9KitFEMvZr2CqMIbGxs7G3Y1ZZ93rivjhmSMUCeMrGxsbFXZVefvNE/L1GqgwdsbGzsPdnzxNAbFVeXNQu83qAXGxsb++HsHiBp90+GvtVxLzY2NjZ2krSqqe4Tzal8PQgbGxsbe8Lurdr0vmU0FcHGxsbejJ0v2eS/z/H5sg42Njb2nuzecLeXonJAfnHNUgQbGxt7CfakVdS7siTQ3vsfXNnBxsbGviV7nwcbGxsbGxsbGxv7Ns8vDOG5zMp1sA0AAAAASUVORK5CYII=">
+    
+</ul>
+
+    
 
     <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/learning/">learning</a>
+    </ul>
     
 
     <!-- Share -->
@@ -443,7 +473,16 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        
+        <h2>本篇所包含的内容如下：</h2>
+
+<pre><code>1.安装Git Bash
+2.安装NodeJs
+3.安装hexo
+4.生成SSH并添加到github
+5.部署项目
+6.上传到github
+7.绑定个人域名
+</code></pre>  <h2>Start</h2><br>  <h3>1. 安装Git Bash</h3><br>我一直不太喜欢在cmd中操作各种命令，所以挑了这个比较好使的Git Bash, 我的是windows环境，所以下载windows版本并安装就可以了。<br>    <a target="blank" href="http://gitforwindows.org/">a.下载Git Bash</a><br>    b.安装步骤：双击下载好的exe文件，一路next。<br>    c.安装好后，打开gitbash，查看版本命令：<code>git version</code><br>    d.第一环节完毕。<br><br> <h3>2.安装NodeJs</h3><br> Hexo是基于nodeJS环境的静态博客，里面的npm工具很有用啊，所以还是老老实实把这玩意儿装了吧。<br>       <a href="https://nodejs.org/en/" target="_blank" rel="noopener">a.下载地址</a><br>    b.安装步骤：反正下载好msi文件后，双击打开安装，也是一路next，不过在Custom Setup这一步记得选 Add to PATH ,这样你就不用自己去配置电脑上环境变量了，装完在按 win + r 快捷键调出运行，然后输入cmd确定，在cmd中输入path可以看到你的node是否配置在里面（环境变量），没有的话你就自由发挥吧。<br>    c.查看版本：命令：<code>node -v</code><br>    d.第二环节结束。<br><br> <h3>3. 安装hexo</h3><br>a.先创建一个文件夹（用来存放所有blog的东西），然后<code>cd</code>到该文件夹下。<br>b.安装hexo命令：<code>npm i -g hexo</code><br>c.安装完成后，查看版本：<code>hexo -v</code><br>d.初始化命令：<code>hexo init</code>初始化完成之后打开所在的文件夹可以看到以下文件：<br><img src="http://p2a2cytqy.bkt.clouddn.com/18-1-10/61472644.jpg"><br>e.解释一下：<br>node_modules：是依赖包<br>public：存放的是生成的页面<br>scaffolds：命令生成文章等的模板<br>source：用命令创建的各种文章<br>themes：主题<br>_config.yml：整个博客的配置<br>db.json：source解析所得到的<br>package.json：项目所需模块项目的配置信息<br><br>f.做好这些前置工作之后接下来的就是各种配配配置了.<br><br><h3>4. 搭桥到github</h3><br>a.没账号的创建账号，<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a><br>有账号的看下面。<br>b.创建一个repo，名称为yourname.github.io, 其中yourname是你的github名称，按照这个规则创建才有用。<br>如下：<br><img src="http://p2a2cytqy.bkt.clouddn.com/18-1-10/7616963.jpg"><br><img src="http://p2a2cytqy.bkt.clouddn.com/18-1-10/18116698.jpg"><br>c.回到gitbash中，配置github账户信息（YourName和YourEail都替换成你自己的）。<br><br><h3>5. 一步之遥</h3><br>a.用编辑器打开你的blog项目，修改_config.yml文件的一些配置(冒号之后都是有一个半角空格的)：<br><code>deploy:<br>&nbsp;&nbsp;&nbsp;type: git<br>&nbsp;&nbsp;&nbsp;repo:<a href="https://github.com/YourgithubName/YourgithubName.github.io.git" target="_blank" rel="noopener">https://github.com/YourgithubName/YourgithubName.github.io.git</a><br>&nbsp;&nbsp;&nbsp;branch: master</code><br>b.回到gitbash中，进入你的blog目录，分别执行以下命令：<br><code>&nbsp;&nbsp;&nbsp;hexo clean<br>&nbsp;&nbsp;&nbsp;hexo generate<br>&nbsp;&nbsp;&nbsp;hexo server</code><br>注：hexo 3.0把服务器独立成个别模块，需要单独安装：<code>npm i hexo-server</code><br>c.打开浏览器输入：<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a><br>d.不出意外就可以正常显示你的界面了。<br><br><h3>6. 上传到github</h3><br>a.先安装一波：<code>npm install hexo-deployer-git –save</code>（这样才能将你写好的文章部署到github服务器上并让别人浏览到）。<br>b.执行命令(建议每次都按照如下步骤部署)：<br><code>hexo clean<br>hexo generate<br>hexo deploy</code><br>c.注意deploy的过程中要输入你的username及passward。如下：<br><img src="http://p2a2cytqy.bkt.clouddn.com/18-1-10/64124928.jpg"><br>d.在浏览器中输入<a href="http://yourgithubname.github.io" target="_blank" rel="noopener">http://yourgithubname.github.io</a><br>就可以看到你的个人博客啦，是不是很兴奋！<br>e.感觉gitbash中东西太多的时候输入clear命令清空。<br><br><h3>7. 绑定个人域名</h3><br>不想绑定的自行忽略<br>a.第一步购买域名：随便在哪个网站买一个就好了，小花是在阿里云购买的6-wz.cn, DNS也是顺道在那买的。<br>b.第二步添加CNAME：在项目的source文件夹下新建一个名为CNAME的文件，在里面添加你购买的域名，比如我添加的是6-wz.cn，只能添加一个。<br>c.到DNS中添加一条CNAME记录,解析到yourgithubname.github.io即可。<br>d.接着再次部署一下，用你购买的域名打开，就可以看到你的博客了。<br><br><h2>至此你已完成了一个hexo博客的搭建与部署。至于主题以及文章的发布，后面会讲到。</h2>
         
                 <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
                     <p><strong>
