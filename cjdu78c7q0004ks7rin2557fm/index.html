@@ -45,9 +45,9 @@
     
     <title>
         
-            一些常用的国外接码平台 | 
+            iOS描述文件的详解 | 
         
-        Duckweed
+        Jonywei`s Blog-专业的互联网技术分享博客
     </title>
 
     <!-- Favicons -->
@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="Jonywei的博客,Jonywei,技术博客,黑科技,有趣的博客,专业技术分享网站,duckweed">
-    <meta name="keywords" content="jonywei,blog,duckweed,,短信">
+    <meta name="keywords" content="jonywei,blog,duckweed,,ios">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -195,11 +195,11 @@
 
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Duckweed">
-    <meta name="msapplication-starturl" content="http://blog.6-wz.cn/cjdu73o8s000bh47r2ivt6vzc/">
+    <meta name="application-name" content="Jonywei`s Blog-专业的互联网技术分享博客">
+    <meta name="msapplication-starturl" content="http://blog.6-wz.cn/cjdu78c7q0004ks7rin2557fm/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="Duckweed">
+    <meta name="apple-mobile-web-app-title" content="Jonywei`s Blog-专业的互联网技术分享博客">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="apple-touch-icon" href="/img/favicon.png">
 
@@ -211,16 +211,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://blog.6-wz.cn/cjdu73o8s000bh47r2ivt6vzc/">
+    <meta property="og:url" content="http://blog.6-wz.cn/cjdu78c7q0004ks7rin2557fm/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="一些常用的国外接码平台 | Duckweed">
+    <meta property="og:title" content="iOS描述文件的详解 | Jonywei`s Blog-专业的互联网技术分享博客">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="Jonywei的博客,Jonywei,技术博客,黑科技,有趣的博客,专业技术分享网站,duckweed">
-    <meta property="og:article:tag" content="短信"> 
+    <meta property="og:article:tag" content="ios"> 
 
     
-        <meta property="article:published_time" content="Thu Feb 15 2018 17:33:24 GMT+0800">
-        <meta property="article:modified_time" content="Thu Feb 15 2018 17:46:18 GMT+0800">
+        <meta property="article:published_time" content="Mon Jan 29 2018 18:52:52 GMT+0800">
+        <meta property="article:modified_time" content="Wed Feb 14 2018 13:46:05 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -228,7 +228,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://blog.6-wz.cn/cjdu73o8s000bh47r2ivt6vzc/index.html" />
+        <link rel="canonical" href="http://blog.6-wz.cn/cjdu78c7q0004ks7rin2557fm/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -240,10 +240,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://blog.6-wz.cn/cjdu73o8s000bh47r2ivt6vzc/index.html",
-    "headline": "一些常用的国外接码平台",
-    "datePublished": "Thu Feb 15 2018 17:33:24 GMT+0800",
-    "dateModified": "Thu Feb 15 2018 17:46:18 GMT+0800",
+    "mainEntityOfPage": "http://blog.6-wz.cn/cjdu78c7q0004ks7rin2557fm/index.html",
+    "headline": "iOS描述文件的详解",
+    "datePublished": "Mon Jan 29 2018 18:52:52 GMT+0800",
+    "dateModified": "Wed Feb 14 2018 13:46:05 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "Jony Wei",
@@ -255,13 +255,13 @@
     },
     "publisher": {
         "@type": "Organization",
-        "name": "Duckweed",
+        "name": "Jonywei`s Blog-专业的互联网技术分享博客",
         "logo": {
             "@type":"ImageObject",
             "url": "/img/favicon.png"
         }
     },
-    "keywords": ",短信jonywei,blog,duckweed,",
+    "keywords": ",iosjonywei,blog,duckweed,",
     "description": "Jonywei的博客,Jonywei,技术博客,黑科技,有趣的博客,专业技术分享网站,duckweed",
 }
 </script>
@@ -325,6 +325,15 @@
     <!-- Left aligned menu below button -->
     
     
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#一、常见的描述文件有哪些？"><span class="post-toc-number">1.</span> <span class="post-toc-text">一、常见的描述文件有哪些？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#二、究竟什么是描述文件"><span class="post-toc-number">2.</span> <span class="post-toc-text">二、究竟什么是描述文件?</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#三、描述文件该怎么用呢？"><span class="post-toc-number">3.</span> <span class="post-toc-text">三、描述文件该怎么用呢？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#四、你也可以自己DIY需要的描述文件"><span class="post-toc-number">4.</span> <span class="post-toc-text">四、你也可以自己DIY需要的描述文件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#五、常用的描述文件下载地址"><span class="post-toc-number">5.</span> <span class="post-toc-text">五、常用的描述文件下载地址</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#如果您有更好的描述文件或者其他的玩机技巧"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">如果您有更好的描述文件或者其他的玩机技巧</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#欢迎投稿点此加群"><span class="post-toc-number">5.2.</span> <span class="post-toc-text">欢迎投稿点此加群</span></a></li></ol></li></ol>
+    </ul>
+    
 
 
 
@@ -354,7 +363,7 @@
         
     
             <p class="article-headline-p">
-                一些常用的国外接码平台
+                iOS描述文件的详解
             </p>
         </div>
 
@@ -373,7 +382,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Jony Wei</strong>
-        <span>2月 15, 2018</span>
+        <span>1月 29, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -395,7 +404,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACX0lEQVR42u3aQW7kMAwEQP//08kL4mmSkuwMyqdFEEguLyAyLV4/X/1ceHh4eHh4eHh4L+Nd8fNh0dvfT1a+/0n+bnh4eHhneMmrJ6QEkKw5eTc8PDy8k7zqa1VLSHL0T94NDw8P7828XgMdRQnxvnh4eHjfxMtf9ENzjIeHh/d63qrDuldCXpG14OHh4cW8eRS7799H7/fw8PDwAl55pKnVUq8dU9g4U4aHh4cX8PKDOL/QKscHg1EtPDw8vKd4+TjU2hZ5/iEKfzHg4eHhLeIl4en99VXeUufRcO8KDQ8PD+8MbzIalRz01TAiDzKaF2B4eHh4i3jVI773OXqNcvU/AA8PD283L2+dJ8FrL85ImvLC6AAeHh7eBl4hKi02xDvKRiFrwcPDw1vK64WtSXmortBbHw8PD+9ZXrUVTjbOy0yyV7QjHh4e3mZe0iJXm+O8VMw/Kx4eHt5TvN5y8yur6pXbKGvBw8PDW8QrH7utQz8pQjlpQRiBh4eHN+blIwLV4LXZFg/GvPDw8PBO8nqDVr0LrV4ZKIcReHh4eNt41Sv/eRiRfMQciYeHh/ceXg7It8+P+LzhxsPDw3uKl8cH0TZFcFIYRjNleHh4eIt41afXOhca4rh9/xOMh4eHt5l3xU8OrjLuW/M8HMHDw8M7yesVg/LGccCRf0Q8PDy8Z3nVAzpnTNrlvETh4eHh/RdePlxVHbpqBrt4eHh4r+RNQthqISmXJTw8PLyDvCSMuD+sq+A8tC3Eynh4eHhHeHnbmke61fGCXoOOh4eHd573fQ8eHh4eHh4eHt4Lnl+gU3y4VWzPrQAAAABJRU5ErkJggg==">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACXUlEQVR42u3bUW4rIQwF0Ox/0+0CnjK91zBkXnTmq2pI4FAJOzZ9/Xz188LDw8PDw8PDw3sY7xU/1+P/fTWZ5d2Y2drw8PDwTvL+OGovAe2i333+u/fma8PDw8M7z7s+7ttF50u83rh6bXh4eHgP483GtEg8PDy8b+IlgeH698kn4+Hh4f0vvOIL/wg2S7KP1lrw8PDwYl7bADv58wf6e3h4eHiXvPZpl7j+ar1CPDw8vJt5K9cC2sQ3Sc3bjRjWWvDw8PAWeG3zfj1g5JuYX2nFw8PDO8lbLzrkx3fyDwCzTcHDw8M7z8vLELsuWiXUWaDCw8PDO8ObHdnrBd9dwQMPDw/vPO+aul54zWeZpdd4eHh4J3l5EWFXiWFlO6I/AB4eHt4RXjJNO/KOZBoPDw/vCby2PZ8sqD3i2xCCh4eH91nerEG13spqLyUUs+Ph4eHdzGuP79mYfBPbdlrd38PDw8PbyksWdD39rkR8VuzAw8PDO8NrW18tcpYiJxcLiqsDeHh4eFt5bUK8t6E1C1F/rAEPDw/vZt6uZlgSKvKG2dJIPDw8vCO8lZZV3ubPx+dttuIbAx4eHt4mXtuwL6YpQ0iy0cOrA3h4eHhbebNG1yzhXknQk43Gw8PDO8N7xc8sVOSttTw1x8PDw3sCrw0Gs+nXA0OyZjw8PLyTvKTMmr+3vWTQBqelWgseHh7eQV5+cWqlXNtebsDDw8N7Pq8NJPnFrFnpFg8PD+9TvPw4XkmO24CRp/V4eHh4J3nrhYBZKysBtyk7Hh4e3t2873vw8PDw8PDw8PAe8PwC4n/EcDDuxGUAAAAASUVORK5CYII=">
     
 </ul>
 
@@ -409,7 +418,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/短信/">短信</a>
+        <a class="post_tag-link" href="/tags/ios/">ios</a>
     </ul>
     
 
@@ -437,7 +446,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=一些常用的国外接码平台&url=http://blog.6-wz.cn/cjdu73o8s000bh47r2ivt6vzc/index.html&pic=http://blog.6-wz.cn/img/favicon.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=iOS描述文件的详解&url=http://blog.6-wz.cn/cjdu78c7q0004ks7rin2557fm/index.html&pic=http://blog.6-wz.cn/img/favicon.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -458,7 +467,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Duckweed&title=一些常用的国外接码平台&summary=Jonywei的博客,Jonywei,技术博客,黑科技,有趣的博客,专业技术分享网站,duckweed&pics=http://blog.6-wz.cn/img/favicon.png&url=http://blog.6-wz.cn/cjdu73o8s000bh47r2ivt6vzc/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Jonywei`s Blog-专业的互联网技术分享博客&title=iOS描述文件的详解&summary=Jonywei的博客,Jonywei,技术博客,黑科技,有趣的博客,专业技术分享网站,duckweed&pics=http://blog.6-wz.cn/img/favicon.png&url=http://blog.6-wz.cn/cjdu78c7q0004ks7rin2557fm/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -477,89 +486,38 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>本文收集一些国外的免费的接码平台网站。大家有更好的网站请推荐一下！谢谢大家啦~主要用途呢就是有时候注册一些国外网站或者薅一些羊毛的时候需要接收大量的验证码，出于隐私保护，免费提供给大家。</p>
-<table>
-<thead>
-<tr>
-<th>网站</th>
-<th>地址</th>
-<th style="text-align:right">描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>SMSReceiveFree</td>
-<td><a href="https://smsreceivefree.com" target="_blank" rel="noopener">https://smsreceivefree.com</a></td>
-<td style="text-align:right">美国、英国、加拿大</td>
-</tr>
-<tr>
-<td>Receive SMS Online for FREE</td>
-<td><a href="https://www.receive-sms-online.info/" target="_blank" rel="noopener">https://www.receive-sms-online.info/</a></td>
-<td style="text-align:right">英国、罗马尼亚、美国、西班牙、法国、德国、俄罗斯</td>
-</tr>
-<tr>
-<td>Receive a SMS Online</td>
-<td><a href="https://receive-a-sms.com/" target="_blank" rel="noopener">https://receive-a-sms.com/</a></td>
-<td style="text-align:right">美国、澳大利亚、挪威、奥地利、巴西、香港、南非、波兰、英国、加拿大</td>
-</tr>
-<tr>
-<td>Free SMS Numbers Online</td>
-<td><a href="https://smsnumbersonline.com/" target="_blank" rel="noopener">https://smsnumbersonline.com/</a></td>
-<td style="text-align:right">美国、英国、加拿大、波兰</td>
-</tr>
-<tr>
-<td>Receive SMS online for Free</td>
-<td><a href="https://sms-online.co/receive-free-sms" target="_blank" rel="noopener">https://sms-online.co/receive-free-sms</a></td>
-<td style="text-align:right">美国、英国、加拿大、瑞典、法国、马来西亚、印度尼西亚</td>
-</tr>
-<tr>
-<td>Receive-SMS</td>
-<td><a href="https://receive-sms.com/" target="_blank" rel="noopener">https://receive-sms.com/</a></td>
-<td style="text-align:right">美国</td>
-</tr>
-<tr>
-<td>Receive FREE SMS online</td>
-<td><a href="http://receivefreesms.com/" target="_blank" rel="noopener">http://receivefreesms.com/</a></td>
-<td style="text-align:right">美国、英国、挪威、瑞典、荷兰、澳大利亚、匈牙利、立陶宛、香港等</td>
-</tr>
-<tr>
-<td>RECEIVE SMS ONLINE</td>
-<td><a href="https://www.receivesmsonline.net/" target="_blank" rel="noopener">https://www.receivesmsonline.net/</a></td>
-<td style="text-align:right">美国、加拿大、英国</td>
-</tr>
-<tr>
-<td>Free Online Phone</td>
-<td><a href="https://www.freeonlinephone.org" target="_blank" rel="noopener">https://www.freeonlinephone.org</a></td>
-<td style="text-align:right">美国、加拿大、英国、瑞典</td>
-</tr>
-<tr>
-<td>Receive SMS Online</td>
-<td><a href="http://receive-sms-online.com" target="_blank" rel="noopener">http://receive-sms-online.com</a></td>
-<td style="text-align:right">俄国、英国、乌克兰</td>
-</tr>
-<tr>
-<td>TextNow</td>
-<td><a href="https://www.textnow.com/" target="_blank" rel="noopener">https://www.textnow.com/</a></td>
-<td style="text-align:right">美国</td>
-</tr>
-<tr>
-<td>Textfree</td>
-<td><a href="https://www.pinger.com/text-free/" target="_blank" rel="noopener">https://www.pinger.com/text-free/</a></td>
-<td style="text-align:right">none</td>
-</tr>
-<tr>
-<td>SELLAITE</td>
-<td><a href="http://sms.sellaite.com/" target="_blank" rel="noopener">http://sms.sellaite.com/</a></td>
-<td style="text-align:right">爱沙尼亚</td>
-</tr>
-<tr>
-<td>Twilio</td>
-<td><a href="https://www.twilio.com/" target="_blank" rel="noopener">https://www.twilio.com/</a></td>
-<td style="text-align:right">支持API调用，看上去很不错</td>
-</tr>
-</tbody>
-</table>
+        <p><strong>在iOS中大家经常会用到描述文件，描述文件的使用会为给我们平时使用iPhone或iPad带来很多便利：例如更新开发者预览版系统、屏蔽系统中的更新提醒等，我今天为大家搜罗了几个实用性较高的描述文件，希望能为你平时的使用带来些许帮助。另外如果有好玩且实用的描述文件我们也会继续收录与更新，欢迎大家收藏。</strong></p>  
 
+<h2 id="一、常见的描述文件有哪些？"><a href="#一、常见的描述文件有哪些？" class="headerlink" title="一、常见的描述文件有哪些？"></a>一、常见的描述文件有哪些？</h2><ul>
+<li>ios开发版系统更新文件</li>
+<li>屏蔽iOS系统更新提示</li>
+<li>儿童模式</li>
+<li>运营商网络描述文件  </li>
+</ul>
+<h2 id="二、究竟什么是描述文件"><a href="#二、究竟什么是描述文件" class="headerlink" title="二、究竟什么是描述文件?"></a>二、究竟什么是描述文件?</h2><p>iOS的描述文件（profile）其实是系统中的设置文件，实质上是一个XML文件，借助描述文件我们可以将已经设置和授权过的信息载入到苹果设备中（iPhone、iPad、iPod touch、Apple TV和Mac电脑）。设置和授权信息包含：设备安全性策略和访问限制、专用网络配置、Wi-Fi设置、邮件和日历帐户等。</p>
+<h2 id="三、描述文件该怎么用呢？"><a href="#三、描述文件该怎么用呢？" class="headerlink" title="三、描述文件该怎么用呢？"></a>三、描述文件该怎么用呢？</h2><p>使用步骤：  </p>
+<ul>
+<li>用Safari浏览器打开描述文件的下载地址。（文章后面会给出）</li>
+<li>在弹出的对话框中选择“允许”。</li>
+<li>点击右上角的“安装”，然后输入密码，在接下来的对话框中均点击“安装”，最后重启设备。</li>
+<li>在此您的设备已经安装好了对应功能的描述文件！<br>  删除方法：<br>  如果你想恢复到原来的状态也很简单，设置–&gt;通用—&gt;描述文件与设备管理，打开对应的描述文件删除即可。</li>
+</ul>
+<h2 id="四、你也可以自己DIY需要的描述文件"><a href="#四、你也可以自己DIY需要的描述文件" class="headerlink" title="四、你也可以自己DIY需要的描述文件"></a>四、你也可以自己DIY需要的描述文件</h2><pre><code>因为来自官方的描述文件非常有限（多为更新用途），
+所以现在可给大家通用的描述文件还是比较少，
+描述文件的更多用途是给企业用户对设备进行批量管理与设置使用。
+另外在寻找描述文件的过程中发现了一个很有意思的软件：
+Apple Configurator 2，这款软件中含有描述文件制作器，可以通过自己进行DIY设计，
+你可以对访问限制中的功能进行组合来生成你独有描述文件。
+如果你是企业级用户想要同时管理几十上百台工作设备（Mac、iPhone、iPad）
+也可以通过Apple Configurator 2进行管理，批量注入描述文件省时省力。
+</code></pre><p><img src="http://p2a2cytqy.bkt.clouddn.com/18-1-29/12281262.jpg"></p>
+<h2 id="五、常用的描述文件下载地址"><a href="#五、常用的描述文件下载地址" class="headerlink" title="五、常用的描述文件下载地址"></a>五、常用的描述文件下载地址</h2><ul>
+<li>ios开发版系统更新文件<a href="http://p2a2cytqy.bkt.clouddn.com/ios_11_beta_profile.mobileconfig" target="_blank" rel="noopener">下载地址</a></li>
+<li>屏蔽iOS系统更新提示<a href="http://p2a2cytqy.bkt.clouddn.com/tvos.mobileconfig" target="_blank" rel="noopener">下载地址</a></li>
+<li>儿童模式<a href="http://p2a2cytqy.bkt.clouddn.com/%E2%80%9C%E9%98%B2%E7%86%8A%E5%AD%A9%E5%AD%90%E2%80%9D.mobileconfig" target="_blank" rel="noopener">下载地址</a></li>
+<li>运营商网络描述文件<br>   移动<a href="http://p2a2cytqy.bkt.clouddn.com/cmwap.mobileconfig" target="_blank" rel="noopener">下载地址</a><br>   联通<a href="http://p2a2cytqy.bkt.clouddn.com/3gwap.mobileconfig" target="_blank" rel="noopener">下载地址</a><br>   电信<a href="http://p2a2cytqy.bkt.clouddn.com/ctwap.mobileconfig" target="_blank" rel="noopener">下载地址</a></li>
+</ul>
+<h3 id="如果您有更好的描述文件或者其他的玩机技巧"><a href="#如果您有更好的描述文件或者其他的玩机技巧" class="headerlink" title="如果您有更好的描述文件或者其他的玩机技巧"></a><center>如果您有更好的描述文件或者其他的玩机技巧</center></h3><h3 id="欢迎投稿点此加群"><a href="#欢迎投稿点此加群" class="headerlink" title="欢迎投稿点此加群"></a><center>欢迎投稿<a href="https://jq.qq.com/?_wv=1027&k=56HNl1T" target="_blank" rel="noopener">点此加群</a></center></h3>
         
                 <blockquote style="margin: 2em 0 0;padding: 0.5em 1em;border-left: 3px solid #F44336;background-color: #F5F5F5;list-style: none;">
                     <p><strong>
@@ -567,7 +525,7 @@
                             <a href="http://blog.6-wz.cn" target="_blank">Jonywei</a>版权所有，未经允许严禁转载！
                         </strong>
                         <br>
-                        <strong>本文链接：</strong><a href="http://blog.6-wz.cn/cjdu73o8s000bh47r2ivt6vzc/">http://blog.6-wz.cn/cjdu73o8s000bh47r2ivt6vzc/</a>
+                        <strong>本文链接：</strong><a href="http://blog.6-wz.cn/cjdu78c7q0004ks7rin2557fm/">http://blog.6-wz.cn/cjdu78c7q0004ks7rin2557fm/</a>
                     </p>
                 </blockquote>
         
@@ -589,13 +547,21 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
+        <a href="/cjdu78c8x000kks7rsybmu408/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/cjdu73o8m0006h47r7p4ilwhn/" id="post_nav-older" class="next-content">
+        <a href="/cjdu78c8v000hks7rdcknn1qy/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
@@ -853,7 +819,7 @@ It will not impact the appearance and can give developers a lot of support :)
 
         <!--Copyright-->
         <div id="copyright">
-            Copyright&nbsp;©&nbsp;2017&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>Duckweed
+            Copyright&nbsp;©&nbsp;2017&nbsp;-<script type="text/javascript">var fd = new Date();document.write("&nbsp;" + fd.getFullYear() + "&nbsp;");</script>Jonywei`s Blog-专业的互联网技术分享博客
             
                 <br>
                 
